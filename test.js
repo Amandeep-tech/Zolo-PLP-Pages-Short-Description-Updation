@@ -1,4 +1,6 @@
-const jsonArr2 = [
+const fs = require("fs");
+
+const jsonArr = [
   {
     og_url: "",
     urlPath: "pg-hostel-near-munnekolala-in-hyderabad",
@@ -2473,38 +2475,45 @@ const jsonArr2 = [
 ];
 
 
-const jsonArr = [
-    {
-        og_url: "",
-        urlPath: "pg-hostel-near-munnekolala-in-hyderabad",
-        metaInfo_id: "5eb958e0e6378850379d5f18",
-      },
-]
 
+// db.getCollection('metainfos').update(
+//   { "_id": ObjectId("5eb958e0e6378850379d5f18") }, // Replace with your actual _id
+//   [
+//       {
+//           "$set": {
+//               "og_url": {
+//                   "$cond": {
+//                       "if": { "$eq": ["$_id", ObjectId("5eb958e0e6378850379d5f18")] }, // Condition to match _id
+//                       "then": { "$concat": ["/", "$urlPath"] }, // Concatenate with a slash
+//                       "else": "$og_url" // Keep original og_url value if condition is not met
+//                   }
+//               }
+//           }
+//       }
+//   ]
+// )
 
 
 const createMongoCommand = (jsonArr) => {
   let command = ``;
   const writeStream = fs.createWriteStream("./results2/finalMongoCommands.txt");
   jsonArr.map((jsonObj) => {
-    command = `
-    db.getCollection('metainfos').update(
-        { "_id": ObjectId(${jsonObj.metaInfo_id}) }, 
+    command = `db.getCollection('metainfos').update(
+        { "_id": ObjectId("${jsonObj.metaInfo_id}") }, 
         [
             {
                 "$set": {
                     "og_url": {
                         "$cond": {
-                            "if": { "$eq": ["$_id", ObjectId(${jsonObj.metaInfo_id})] },
-                            "then": { "$concat": ["/", ${jsonObj.urlPath}] }, 
+                            "if": { "$eq": ["$_id", ObjectId("${jsonObj.metaInfo_id}")] },
+                            "then": { "$concat": ["/", "${jsonObj.urlPath}"] }, 
                             "else": "$og_url" 
                         }
                     }
                 }
             }
         ]
-    )
-    `;
+    )`;
     // append all these commands in a separate file line by line
     writeStream.write(command + "\n");
   });
