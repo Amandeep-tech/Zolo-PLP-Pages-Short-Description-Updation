@@ -1,0 +1,5 @@
+type3 -> gender-pageType-in-city
+type1 -> gender-pageType-in-locality-city
+typ4 -> couple-single-room-for-rent-in-city
+        gender(men/women)-single-room-for-rent-in-city
+        
