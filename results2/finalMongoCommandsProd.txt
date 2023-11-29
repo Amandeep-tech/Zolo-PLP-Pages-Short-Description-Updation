@@ -1,0 +1,16 @@
+db.getCollection('metainfos').update(
+          { "_id": ObjectId("65607ba300852a26eb6ba433") }, 
+          [
+              {
+                  "$set": {
+                      "og_url": {
+                          "$cond": {
+                              "if": { "$eq": ["$_id", ObjectId("65607ba300852a26eb6ba433")] },
+                              "then": { "$concat": ["/", "hostels-in-cv_ramanagar-bangalore"] }, 
+                              "else": "$og_url" 
+                          }
+                      }
+                  }
+              }
+          ]
+      )

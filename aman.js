@@ -35,80 +35,80 @@ const others = [];
 
 const filterArr = arr.filter((url) => !url.includes("pg-hostel-near"));
 
-filterArr.map((url, index) => {
-  const urlSplit = url.split("https://zolostays.com/");
-  const URL = urlSplit[1];
-  const urlLength = URL.split("-").length;
-  if (URL.startsWith("single-room-for-rent")) {
-    if (urlLength === 6) {
-      singleRoomForRentInCity.push(URL);
-    } else {
-      singleRoomForRentInLocalityCity.push(URL);
-    }
-  } else if (URL.startsWith("men-single-room-for-rent")) {
-    if (urlLength === 7) {
-      genderSingleRoomForRentInCity.push(URL);
-    } else {
-      genderSingleRoomForRentInLocalityCity.push(URL);
-    }
-  } else if (URL.startsWith("women-single-room-for-rent")) {
-    if (urlLength === 7) {
-      genderSingleRoomForRentInCity.push(URL);
-    } else {
-      genderSingleRoomForRentInLocalityCity.push(URL);
-    }
-  } else if (URL.startsWith("couple-single-room-for-rent")) {
-    if (urlLength === 7) {
-      coupleSingleRoomForRentInCity.push(URL);
-    } else {
-      coupleSingleRoomForRentInLocalityCity.push(URL);
-    }
-  } else if (URL.startsWith("pgs-in") || URL.startsWith("hostels-in")) {
-    if (urlLength === 3) {
-      pageTypeInCity.push(URL);
-    } else {
-      pageTypeInLocalityCity.push(URL);
-    }
-  } else if (URL.startsWith("men-pgs-in")) {
-    if (urlLength === 4) {
-      genderPageTypeInCity.push(URL);
-    } else {
-      genderPageTypeInLocalityCity.push(URL);
-    }
-  } else if (URL.startsWith("women-pgs-in")) {
-    if (urlLength === 4) {
-      genderPageTypeInCity.push(URL);
-    } else {
-      genderPageTypeInLocalityCity.push(URL);
-    }
-  } else if (URL.startsWith("couple-pgs-in")) {
-    if (urlLength === 4) {
-      couplePageTypeInCity.push(URL);
-    } else {
-      couplePageTypeInLocalityCity.push(URL);
-    }
-  } else if (URL.startsWith("men-hostels-in")) {
-    if (urlLength === 4) {
-      genderPageTypeInCity.push(URL);
-    } else {
-      genderPageTypeInLocalityCity.push(URL);
-    }
-  } else if (URL.startsWith("women-hostels-in")) {
-    if (urlLength === 4) {
-      genderPageTypeInCity.push(URL);
-    } else {
-      genderPageTypeInLocalityCity.push(URL);
-    }
-  } else if (URL.startsWith("couple-hostels-in")) {
-    if (urlLength === 4) {
-      couplePageTypeInCity.push(URL);
-    } else {
-      couplePageTypeInLocalityCity.push(URL);
-    }
-  } else {
-    others.push(URL);
-  }
-});
+// filterArr.map((url, index) => {
+//   const urlSplit = url.split("https://zolostays.com/");
+//   const URL = urlSplit[1];
+//   const urlLength = URL.split("-").length;
+//   if (URL.startsWith("single-room-for-rent")) {
+//     if (urlLength === 6) {
+//       singleRoomForRentInCity.push(URL);
+//     } else {
+//       singleRoomForRentInLocalityCity.push(URL);
+//     }
+//   } else if (URL.startsWith("men-single-room-for-rent")) {
+//     if (urlLength === 7) {
+//       genderSingleRoomForRentInCity.push(URL);
+//     } else {
+//       genderSingleRoomForRentInLocalityCity.push(URL);
+//     }
+//   } else if (URL.startsWith("women-single-room-for-rent")) {
+//     if (urlLength === 7) {
+//       genderSingleRoomForRentInCity.push(URL);
+//     } else {
+//       genderSingleRoomForRentInLocalityCity.push(URL);
+//     }
+//   } else if (URL.startsWith("couple-single-room-for-rent")) {
+//     if (urlLength === 7) {
+//       coupleSingleRoomForRentInCity.push(URL);
+//     } else {
+//       coupleSingleRoomForRentInLocalityCity.push(URL);
+//     }
+//   } else if (URL.startsWith("pgs-in") || URL.startsWith("hostels-in")) {
+//     if (urlLength === 3) {
+//       pageTypeInCity.push(URL);
+//     } else {
+//       pageTypeInLocalityCity.push(URL);
+//     }
+//   } else if (URL.startsWith("men-pgs-in")) {
+//     if (urlLength === 4) {
+//       genderPageTypeInCity.push(URL);
+//     } else {
+//       genderPageTypeInLocalityCity.push(URL);
+//     }
+//   } else if (URL.startsWith("women-pgs-in")) {
+//     if (urlLength === 4) {
+//       genderPageTypeInCity.push(URL);
+//     } else {
+//       genderPageTypeInLocalityCity.push(URL);
+//     }
+//   } else if (URL.startsWith("couple-pgs-in")) {
+//     if (urlLength === 4) {
+//       couplePageTypeInCity.push(URL);
+//     } else {
+//       couplePageTypeInLocalityCity.push(URL);
+//     }
+//   } else if (URL.startsWith("men-hostels-in")) {
+//     if (urlLength === 4) {
+//       genderPageTypeInCity.push(URL);
+//     } else {
+//       genderPageTypeInLocalityCity.push(URL);
+//     }
+//   } else if (URL.startsWith("women-hostels-in")) {
+//     if (urlLength === 4) {
+//       genderPageTypeInCity.push(URL);
+//     } else {
+//       genderPageTypeInLocalityCity.push(URL);
+//     }
+//   } else if (URL.startsWith("couple-hostels-in")) {
+//     if (urlLength === 4) {
+//       couplePageTypeInCity.push(URL);
+//     } else {
+//       couplePageTypeInLocalityCity.push(URL);
+//     }
+//   } else {
+//     others.push(URL);
+//   }
+// });
 
 const handleUrls = (fileName, urlTypeMapping) => {
   const filePath = fileName;
@@ -208,49 +208,64 @@ const handlePageTypeInLocalityCityUrls = () => {
   });
 };
 
-handlePageTypeInLocalityCityUrls();
+// handlePageTypeInLocalityCityUrls();
 
-handleUrls(
-  "./results2/pageTypeInLocalityCityMapping.csv",
-  pageTypeInLocalityCityMapping
-);
+// handleUrls(
+//   "./results2/pageTypeInLocalityCityMapping.csv",
+//   pageTypeInLocalityCityMapping
+// );
 
-const urlsNotInProdDB = ramda.difference(
-  pageTypeInLocalityCityMapping.map((urlObj) => urlObj.url),
-  urlsInProd
-);
+// const urlsNotInProdDB = ramda.difference(
+//   pageTypeInLocalityCityMapping.map((urlObj) => urlObj.url),
+//   urlsInProd
+// );
 
-const token = "eyJraWQiOiJyY1FhVjJZZW5PVFMyTVNiMmNwMW5HTERtOVJwV0o4ekhSbklFWEg1MHE0PSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiI4ODIyOWJmMS1jZTI2LTRjODMtODdhNi05YWEyNTA4OGY5ZWQiLCJjb2duaXRvOmdyb3VwcyI6WyJhcC1zb3V0aC0xXzU1dllWYUJpMF9Hb29nbGUiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoLTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGgtMV81NXZZVmFCaTAiLCJ2ZXJzaW9uIjoyLCJjbGllbnRfaWQiOiI2dTg4cTdjazh2ampnbWx0YzJhcW1wcWRmZiIsInRva2VuX3VzZSI6ImFjY2VzcyIsInNjb3BlIjoiYXdzLmNvZ25pdG8uc2lnbmluLnVzZXIuYWRtaW4gcGhvbmUgb3BlbmlkIHByb2ZpbGUgZW1haWwiLCJhdXRoX3RpbWUiOjE3MDAyMDQ5MTgsImV4cCI6MTcwMDgxMzcyNiwiaWF0IjoxNzAwODEwMTI2LCJqdGkiOiIzMTJlZGNmOS02YjViLTQ1OWQtODNlNC01OTIxOTk3Yzg0MDAiLCJ1c2VybmFtZSI6Ikdvb2dsZV8xMTU1MTUyNDM0Mzc0NzU3ODIyNjEifQ.A7IwpchJ38g28nO9h5lxRUlANi92rjuyp_100fTcJLEoqbxa8MOkGynTGshP-qZEgoztbnVBHvZ0eIp2H47bYw6-kiCHkZhFEXYcdNwVp6hhIcjbLKbvB2PtMiIpk1qIsskr9o7ZH8zIQxSJ_zF8bxbYK40MeEI289Bp9jJBuVwWrKDU4PKInDEj7WFLz-LEiDH2kJQ37l8P0M-G22wRAJznepjJmBIZ2pW_uSb6cvr_SbXDcWtsmimfGNQTtwrJLlGp7l8nbJ0-U-OlCNIgFm1RTvsdNyDdozYXDsO2lung8-jPsPZHm0dwbdqdot5RBL_KpZeDBy4iRBY1SACQvA"
+// now creating url for production db
+const token =
+  "eyJraWQiOiJcL2RzUHFjUFNtRURkaUZSVGJheU1OQmFvczNWVFg3SmdXYTJBY2RubnNxUT0iLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJkZTFkODA3ZS02MTlhLTRmYTUtYTE2ZS01YzM3N2U3ODI3YTMiLCJjb2duaXRvOmdyb3VwcyI6WyJhcC1zb3V0aC0xXzB1R2FLb1VscF9Hb29nbGUiXSwiaXNzIjoiaHR0cHM6XC9cL2NvZ25pdG8taWRwLmFwLXNvdXRoLTEuYW1hem9uYXdzLmNvbVwvYXAtc291dGgtMV8wdUdhS29VbHAiLCJ2ZXJzaW9uIjoyLCJjbGllbnRfaWQiOiJzYzc1OTBiaWRvcHJidDIwZDRyZW51dTBoIiwidG9rZW5fdXNlIjoiYWNjZXNzIiwic2NvcGUiOiJhd3MuY29nbml0by5zaWduaW4udXNlci5hZG1pbiBwaG9uZSBvcGVuaWQgcHJvZmlsZSBlbWFpbCIsImF1dGhfdGltZSI6MTcwMDQ3MTk4NSwiZXhwIjoxNzAwODIyODE3LCJpYXQiOjE3MDA4MTkyMTcsImp0aSI6ImJiZWY3ZmI1LTM5YmUtNGJhNS1hNzU0LTVmNGI2NzM0MDM3ZCIsInVzZXJuYW1lIjoiR29vZ2xlXzExNTUxNTI0MzQzNzQ3NTc4MjI2MSJ9.NnXHrWhwM9judkJJFie_mtQpe9Py-0er_kI5V4RzUABiMG49k6lpC2otrn-Jtw7DffofxOjnGbOZZMc69HFADpHQkF53MP25DD3I30bcyeRFR-S_S54AGJ35NaN8YUugAhptBWPTE1a15JTySOfR3CF7Y5LxNr9joFvef05j50FLbtwUge53ARzwOWGxI5juJiH6Ps4y4rR0SU8eMW4tpfVSImf2IZIcXZrRLKLINIrWXuec6IVsMpmb_kQnfbNgFP8j3uko5kHFp4QAvI8iSfDl5h0ZRXa-exPAky808RVWCmX-_qO_ZXPYlW6UK1xO67RcFnS3jQyLRlG04D9mIw";
 const callApi = async (payload) => {
   try {
-    const response = await fetch("https://hermes.stage.zolostays.com/api/urls/", {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      Authorization: `Bearer ${token}`
-    },
-    body: JSON.stringify(payload),
-  });
-  const data = await response.json();
-  console.log("data amandeep", data);
+    const response = await fetch("https://hermes.zolostays.com/api/urls/", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${token}`,
+      },
+      body: JSON.stringify(payload),
+    });
+    const data = await response.json();
+    console.log("data amandeep", data);
   } catch (err) {
     console.log(`err in creating this url ${payload.urlPath}`, err);
   }
-  
-}
-pageTypeInLocalityCityMapping.map(async (urlObj) => {
-  const payload = {
-    isLive: false,
-    isAutoGenerated: false,
-    defaultValue: true,
-    urlPath: `${urlObj.url}`,
-    urlType: "",
-    createdAt: "",
-    updatedAt: "",
-    updatedBy: "",
-  };
-  await callApi(payload);
-})
+};
+// pageTypeInLocalityCityMapping.map(async (urlObj) => {
+//   const payload = {
+//     isLive: false,
+//     isAutoGenerated: false,
+//     defaultValue: true,
+//     urlPath: `${urlObj.url}`,
+//     urlType: "",
+//     createdAt: "",
+//     updatedAt: "",
+//     updatedBy: "",
+//   };
+//   await callApi(payload);
+// })
+
+// first test for 1 url
+// (async () => {
+//   await callApi({
+//     isLive: false,
+//     isAutoGenerated: false,
+//     defaultValue: true,
+//     urlPath: `hostels-in-cv_ramanagar-bangalore`,
+//     urlType: "hostels",
+//     createdAt: "",
+//     updatedAt: "",
+//     updatedBy: "",
+//   });
+// })();
 
 // const createMongoCommand = (urlMapping) => {
 
