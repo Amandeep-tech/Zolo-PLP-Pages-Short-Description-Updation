@@ -2473,28 +2473,22 @@ const jsonArr = [
 const jsonArr2 = [
   {
     og_url: "",
-    urlPath: "hostels-in-cv_ramanagar-bangalore",
-    metaInfo_id: "65607ba300852a26eb6ba433",
+    urlPath: "hostels-in-s_g_palya-bangalore",
+    metaInfo_id: "65705cca00852a4f406ce16b",
   },
 ];
 
 
 const createMongoCommand = (jsonArr) => {
   let command = ``;
-  const writeStream = fs.createWriteStream("./results2/finalMongoCommandsProd.txt");
+  const writeStream = fs.createWriteStream("./results2/updateOgUrlMongoCommandsProd.txt");
   jsonArr.map((jsonObj) => {
-    command = `db.getCollection('metainfos').update(
+    command = `db.getCollection('metainfos').updateOne(
           { "_id": ObjectId("${jsonObj.metaInfo_id}") }, 
           [
               {
-                  "$set": {
-                      "og_url": {
-                          "$cond": {
-                              "if": { "$eq": ["$_id", ObjectId("${jsonObj.metaInfo_id}")] },
-                              "then": { "$concat": ["/", "${jsonObj.urlPath}"] }, 
-                              "else": "$og_url" 
-                          }
-                      }
+                  $set: {
+                      "og_url": "/${jsonObj.urlPath}"
                   }
               }
           ]

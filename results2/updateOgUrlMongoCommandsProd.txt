@@ -1,0 +1,1200 @@
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("5eb6b5afd45c502925ddaa7c") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/pgs-in-maraimalai_nagar-chennai"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("5eb6b5b0d45c502925ddabd4") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-landmark_city-kota"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("5eb6b5b1d45c502925ddb141") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/pgs-in-electronic_city_phase_2-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65607ba300852a26eb6ba433") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-cv_ramanagar-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("656dab0900852a56076cad6a") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-malad-mumbai"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65705cca00852a48736ce16d") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-s_g_palya-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6300852af9196ce38d") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-mamura_sector_66-noida-noida"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6300852a2e796ce394") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-challera_sec-44-noida-noida"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6300852a52136ce3ed") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-mahipalpur-delhi"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6300852a85e26ce3a8") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-laxmi_nagar-delhi"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6300852a33596ce3eb") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-madhinaguda-hyderabad"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6300852a842c6ce3a6") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-jb_nagar_andheri-mumbai"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6300852a7c126ce3be") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-hinjewadi_phase_3-pune"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6300852aaac96ce3e3") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-gandhipuram-coimbatore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6300852a5ac46ce3a2") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-karvenagar-pune"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6300852a2dcc6ce3ce") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-mulund-mumbai"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6300852a05186ce3f1") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-rajanukunte-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6300852af7246ce396") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-eachanari-coimbatore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6300852a80f96ce3cc") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-navallur-chennai"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6300852ab5e26ce3c0") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-wagholi-pune"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6300852a23ad6ce3bc") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-mattikere-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6300852a52cc6ce3e7") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-kodambakkam-chennai"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6300852a52b26ce3d0") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-teynampet-chennai"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6300852a49046ce3e5") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-hinjewadi_phase_-3-pune"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6300852af4326ce3ba") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-hsr-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6300852a2a086ce3e9") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-sarvanampatty-coimbatore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6300852a67e16ce3a4") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-adambakkam-chennai"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852abb996ce526") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/pgs-in-munokella-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a75c96ce46e") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-yewalewadi_kondwa-pune"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a3af16ce439") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-sus-pune"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a416b6ce5ad") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-jeevan_bima_nagar-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852aec916ce41b") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/pgs-in-madiwala-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a1c5f6ce5cb") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-goldwins-coimbatore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a2d416ce509") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-nagwara-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852ae69e6ce416") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-sec-122da"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a11176ce4d0") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/pgs-in-mathikere-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852aeac06ce4f2") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-testtest-coimbatore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a51276ce5a5") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-sus_gaon-pune"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a6ed26ce4f4") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-arekere-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a5b396ce4d2") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-r_t_nagar-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a25bb6ce494") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-maruthi_nagar_btm-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852adc706ce4ea") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-radha_reddy_layoutroad-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a63306ce51b") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-talwandi-kota"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a72936ce44f") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-nesapakkam-chennai"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852adb176ce576") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-hinjewad_phase_3-pune"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a911d6ce45b") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-journalist_colony-hyderabad"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a43d36ce433") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-seawoods-mumbai"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a16c06ce537") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-village-hajipurda"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a6b7f6ce594") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-tilak_nagar-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a5b936ce464") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-kuniamuthur-coimbatore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852accde6ce585") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-marunji-pune"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a3a516ce568") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-thirumalayampalayam-coimbatore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852ad4a26ce4f6") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-rr-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852af3956ce4bd") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-loni_kalbhor-pune"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852af4796ce59d") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-village-hajipuroida"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a6f5d6ce555") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-keshav_nagar-pune"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a48496ce5b2") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-yeshwanthpur-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a29c26ce57f") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-munokella_marathalli-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a1eac6ce44b") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-near_sb_patil_school_ravet-pune"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a7e6f6ce507") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-arekere_hulimavu-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852af8396ce570") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-sec_53_noida-noida"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a89646ce3fe") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-ejipura-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a7ccf6ce410") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-nizampet-hyderabad"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a28ed6ce530") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-wadgoan_sheri-pune"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a1ccb6ce59b") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-village-hajipur"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852abd616ce4ee") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-lanco_hills-hyderabad"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852abb716ce5c1") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-uppilipalayam-coimbatore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852ab2406ce477") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-okhla-delhi"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852ad2f36ce435") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-btm_1st_stage-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a93b86ce4b9") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-powai-mumbai"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a306e6ce4b1") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-sec_27_noida-noida"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852ac4aa6ce566") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-pimple_nilakh-pune"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a073e6ce5bc") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-bund_garden-pune"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a0f916ce5c6") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-sarjapura-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a4d1f6ce474") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/pgs-in-sector_41-gurugram"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852aa70f6ce4bb") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-jspm_college_narhe-pune"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852abd1a6ce418") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-commercials_street-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a0a226ce486") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-cox_town-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a60076ce51d") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-sec-122"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852aa6bf6ce4b3") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-thousand_lights-chennai"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852afef76ce437") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-sec_126_noida-noida"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a407a6ce412") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/pgs-in-kormangala_1st_block-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a03d26ce459") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-mathikere-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a5a926ce58e") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-gn_mills-coimbatore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a156e6ce57d") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-govandi-mumbai"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a5e436ce456") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-valasaravakkam-chennai"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a3d576ce4d6") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-mantaya-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a27816ce466") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-karol_bagh-delhi"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a4a346ce4ec") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-village-hajipur_sec-104-noida"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852adc576ce49a") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-raidurg-hyderabad"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a18716ce498") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-mugalivakkam-chennai"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a51036ce528") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/pgs-in-kuthambakkam-in-chennai"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a12ad6ce54d") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-t_m_palayam-coimbatore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852af7d56ce519") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-talegaon-pune"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a5a7a6ce4f0") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-gowlidoddi-hyderabad"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a4f1c6ce4b7") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-punawale-pune"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a6d7e6ce55d") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-kalapatti-coimbatore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a15596ce3fc") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/pgs-in-btm_1st_stage-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852afe8b6ce5d0") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-iyyappanthangal-chennai"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852aeb776ce534") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-hebbal-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852aab366ce58c") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-bkc_mumbai-mumbai"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a1a9f6ce41d") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-sarjapur_road-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a25a46ce414") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-chandivali-mumbai"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852aee8b6ce5a7") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-alandur-chennai"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a1b8c6ce431") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-bhandup_west-mumbai"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a0d4e6ce479") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-koregaon_park_annexe-pune"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a60436ce544") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-lanco_hills_manikonda-hyderabad"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a2cc66ce5b7") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-turbheai-mumbai"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a31676ce56c") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-sowbakiya_nagar-coimbatore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a860e6ce54a") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-santacruz_west-mumbai"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852ae6af6ce551") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-rajankuntte-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a22366ce50b") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-phursungi-pune"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a9e096ce53d") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-radha_reddy_layout-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a19b56ce49c") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-manikonda-hyderabad"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a80366ce43b") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-cv_ramanagarar-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a17dc6ce4b5") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/pgs-in-noida_sec_63_a-noida"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a2d4b6ce496") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-ganapathy-coimbatore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a66946ce484") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-indira_nagar-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a3d056ce50d") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-btm_stage_2-bangalore"
+                }
+            }
+        ]
+    )
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("65706b6400852a430b6ce4d4") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-juhu-mumbai"
+                }
+            }
+        ]
+    )

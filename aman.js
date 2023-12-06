@@ -35,80 +35,80 @@ const others = [];
 
 const filterArr = arr.filter((url) => !url.includes("pg-hostel-near"));
 
-// filterArr.map((url, index) => {
-//   const urlSplit = url.split("https://zolostays.com/");
-//   const URL = urlSplit[1];
-//   const urlLength = URL.split("-").length;
-//   if (URL.startsWith("single-room-for-rent")) {
-//     if (urlLength === 6) {
-//       singleRoomForRentInCity.push(URL);
-//     } else {
-//       singleRoomForRentInLocalityCity.push(URL);
-//     }
-//   } else if (URL.startsWith("men-single-room-for-rent")) {
-//     if (urlLength === 7) {
-//       genderSingleRoomForRentInCity.push(URL);
-//     } else {
-//       genderSingleRoomForRentInLocalityCity.push(URL);
-//     }
-//   } else if (URL.startsWith("women-single-room-for-rent")) {
-//     if (urlLength === 7) {
-//       genderSingleRoomForRentInCity.push(URL);
-//     } else {
-//       genderSingleRoomForRentInLocalityCity.push(URL);
-//     }
-//   } else if (URL.startsWith("couple-single-room-for-rent")) {
-//     if (urlLength === 7) {
-//       coupleSingleRoomForRentInCity.push(URL);
-//     } else {
-//       coupleSingleRoomForRentInLocalityCity.push(URL);
-//     }
-//   } else if (URL.startsWith("pgs-in") || URL.startsWith("hostels-in")) {
-//     if (urlLength === 3) {
-//       pageTypeInCity.push(URL);
-//     } else {
-//       pageTypeInLocalityCity.push(URL);
-//     }
-//   } else if (URL.startsWith("men-pgs-in")) {
-//     if (urlLength === 4) {
-//       genderPageTypeInCity.push(URL);
-//     } else {
-//       genderPageTypeInLocalityCity.push(URL);
-//     }
-//   } else if (URL.startsWith("women-pgs-in")) {
-//     if (urlLength === 4) {
-//       genderPageTypeInCity.push(URL);
-//     } else {
-//       genderPageTypeInLocalityCity.push(URL);
-//     }
-//   } else if (URL.startsWith("couple-pgs-in")) {
-//     if (urlLength === 4) {
-//       couplePageTypeInCity.push(URL);
-//     } else {
-//       couplePageTypeInLocalityCity.push(URL);
-//     }
-//   } else if (URL.startsWith("men-hostels-in")) {
-//     if (urlLength === 4) {
-//       genderPageTypeInCity.push(URL);
-//     } else {
-//       genderPageTypeInLocalityCity.push(URL);
-//     }
-//   } else if (URL.startsWith("women-hostels-in")) {
-//     if (urlLength === 4) {
-//       genderPageTypeInCity.push(URL);
-//     } else {
-//       genderPageTypeInLocalityCity.push(URL);
-//     }
-//   } else if (URL.startsWith("couple-hostels-in")) {
-//     if (urlLength === 4) {
-//       couplePageTypeInCity.push(URL);
-//     } else {
-//       couplePageTypeInLocalityCity.push(URL);
-//     }
-//   } else {
-//     others.push(URL);
-//   }
-// });
+filterArr.map((url, index) => {
+  const urlSplit = url.split("https://zolostays.com/");
+  const URL = urlSplit[1];
+  const urlLength = URL.split("-").length;
+  if (URL.startsWith("single-room-for-rent")) {
+    if (urlLength === 6) {
+      singleRoomForRentInCity.push(URL);
+    } else {
+      singleRoomForRentInLocalityCity.push(URL);
+    }
+  } else if (URL.startsWith("men-single-room-for-rent")) {
+    if (urlLength === 7) {
+      genderSingleRoomForRentInCity.push(URL);
+    } else {
+      genderSingleRoomForRentInLocalityCity.push(URL);
+    }
+  } else if (URL.startsWith("women-single-room-for-rent")) {
+    if (urlLength === 7) {
+      genderSingleRoomForRentInCity.push(URL);
+    } else {
+      genderSingleRoomForRentInLocalityCity.push(URL);
+    }
+  } else if (URL.startsWith("couple-single-room-for-rent")) {
+    if (urlLength === 7) {
+      coupleSingleRoomForRentInCity.push(URL);
+    } else {
+      coupleSingleRoomForRentInLocalityCity.push(URL);
+    }
+  } else if (URL.startsWith("pgs-in") || URL.startsWith("hostels-in")) {
+    if (urlLength === 3) {
+      pageTypeInCity.push(URL);
+    } else {
+      pageTypeInLocalityCity.push(URL);
+    }
+  } else if (URL.startsWith("men-pgs-in")) {
+    if (urlLength === 4) {
+      genderPageTypeInCity.push(URL);
+    } else {
+      genderPageTypeInLocalityCity.push(URL);
+    }
+  } else if (URL.startsWith("women-pgs-in")) {
+    if (urlLength === 4) {
+      genderPageTypeInCity.push(URL);
+    } else {
+      genderPageTypeInLocalityCity.push(URL);
+    }
+  } else if (URL.startsWith("couple-pgs-in")) {
+    if (urlLength === 4) {
+      couplePageTypeInCity.push(URL);
+    } else {
+      couplePageTypeInLocalityCity.push(URL);
+    }
+  } else if (URL.startsWith("men-hostels-in")) {
+    if (urlLength === 4) {
+      genderPageTypeInCity.push(URL);
+    } else {
+      genderPageTypeInLocalityCity.push(URL);
+    }
+  } else if (URL.startsWith("women-hostels-in")) {
+    if (urlLength === 4) {
+      genderPageTypeInCity.push(URL);
+    } else {
+      genderPageTypeInLocalityCity.push(URL);
+    }
+  } else if (URL.startsWith("couple-hostels-in")) {
+    if (urlLength === 4) {
+      couplePageTypeInCity.push(URL);
+    } else {
+      couplePageTypeInLocalityCity.push(URL);
+    }
+  } else {
+    others.push(URL);
+  }
+});
 
 const handleUrls = (fileName, urlTypeMapping) => {
   const filePath = fileName;
@@ -142,9 +142,9 @@ const handlePageTypeInLocalityCityUrls = () => {
     let cityCapitalFirstLetter = city.charAt(0).toUpperCase() + city.slice(1);
     // for 1st sentence
     const firstSentenceToBeReplaced =
-      "$pageTypeUpperCase in $locality is a good option for $capitaliseFirstLetterCity people";
+      "$pageTypeUpperCase in $locality is a good option for $capitaliseFirstLetterCity people.";
     const firstSentence = [
-      "Opting for accommodation in $locality's $pageTypeUpperCase facilities proves advantageous for residents of $capitaliseFirstLetterCity. The $pageTypeUpperCase in $locality stands out as a favorable choice for those seeking housing in $capitaliseFirstLetterCity due to its positive attributes. Residents in $capitaliseFirstLetterCity find the $pageTypeUpperCase in $locality to be a commendable option for their accommodation needs.",
+      "Opting for accommodation in $locality's $pageTypeUpperCase facilities proves advantageous for residents of $capitaliseFirstLetterCity. The $pageTypeUpperCase in $locality stand out as a favorable choice for those seeking housing in $capitaliseFirstLetterCity due to its positive attributes. Residents in $capitaliseFirstLetterCity find the $pageTypeUpperCase in $locality to be a commendable option for their accommodation needs.",
       "$pageTypeUpperCase in $locality is a good option for $capitaliseFirstLetterCity people.",
       "For those in $capitaliseFirstLetterCity, the $pageTypeUpperCase accommodations in $locality offer a positive and advantageous choice. It's a beneficial option for people residing in the city seeking accommodation.",
     ];
@@ -208,12 +208,12 @@ const handlePageTypeInLocalityCityUrls = () => {
   });
 };
 
-// handlePageTypeInLocalityCityUrls();
+handlePageTypeInLocalityCityUrls();
 
-// handleUrls(
-//   "./results2/pageTypeInLocalityCityMapping.csv",
-//   pageTypeInLocalityCityMapping
-// );
+handleUrls(
+  "./results2/pageTypeInLocalityCityMapping.csv",
+  pageTypeInLocalityCityMapping
+);
 
 // const urlsNotInProdDB = ramda.difference(
 //   pageTypeInLocalityCityMapping.map((urlObj) => urlObj.url),
@@ -254,29 +254,29 @@ const callApi = async (payload) => {
 // })
 
 // first test for 1 url
-(async () => {
-  await callApi({
-    isLive: false,
-    isAutoGenerated: false,
-    defaultValue: true,
-    urlPath: `hostels-in-amandeep-bangalore`,
-    urlType: "hostels",
-    createdAt: "",
-    updatedAt: "",
-    updatedBy: "",
-  });
-})();
+// (async () => {
+//   await callApi({
+//     isLive: false,
+//     isAutoGenerated: false,
+//     defaultValue: true,
+//     urlPath: `hostels-in-amandeep-bangalore`,
+//     urlType: "hostels",
+//     createdAt: "",
+//     updatedAt: "",
+//     updatedBy: "",
+//   });
+// })();
 
-// const createMongoCommand = (urlMapping) => {
+const createMongoCommand = (urlMapping) => {
 
-//   let command = ``;
-//   const writeStream = fs.createWriteStream("./results2/mongoCommands.txt");
-//   urlMapping.map((urlDescObj) => {
-//     command = `db.getCollection('metainfos').update({'og_url': "https://zolostays.com/${urlDescObj.url}"}, {$set:{'short_description': "${urlDescObj.shortDescription}"}}, {multi: false})`;
-//     // append all these commands in a separate file line by line
-//     writeStream.write(command + "\n");
-//   })
-//   writeStream.end();
-// }
+  let command = ``;
+  const writeStream = fs.createWriteStream("./results2/updateShortDescMongoCommandsProd.txt");
+  urlMapping.map((urlDescObj) => {
+    command = `db.getCollection('metainfos').updateOne({'og_url': "/${urlDescObj.url}"}, {$set:{'short_description': "${urlDescObj.shortDescription}"}})`;
+    // append all these commands in a separate file line by line
+    writeStream.write(command + "\n");
+  })
+  writeStream.end();
+}
 
-// createMongoCommand(pageTypeInLocalityCityMapping)
+createMongoCommand(pageTypeInLocalityCityMapping)
