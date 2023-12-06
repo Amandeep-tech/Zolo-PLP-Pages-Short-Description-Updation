@@ -2473,6 +2473,14 @@ const jsonArr = [
     metaInfo_id: "5eb958e1e6378850379d611e",
   },
 ];
+// 657035f5451ccc83dfccf103
+const jsonArr2 = [
+  {
+    og_url: "/",
+    urlPath: "hostels-in-amandeep-bangalore",
+    metaInfo_id: "657035f5451ccc3ebaccf105",
+  },
+]
 
 
 
@@ -2496,20 +2504,14 @@ const jsonArr = [
 
 const createMongoCommand = (jsonArr) => {
   let command = ``;
-  const writeStream = fs.createWriteStream("./results2/finalMongoCommands.txt");
+  const writeStream = fs.createWriteStream("./results2/stage_test/mongoCommands.txt");
   jsonArr.map((jsonObj) => {
-    command = `db.getCollection('metainfos').update(
+    command = `db.getCollection('metainfos').updateOne(
         { "_id": ObjectId("${jsonObj.metaInfo_id}") }, 
         [
             {
-                "$set": {
-                    "og_url": {
-                        "$cond": {
-                            "if": { "$eq": ["$_id", ObjectId("${jsonObj.metaInfo_id}")] },
-                            "then": { "$concat": ["/", "${jsonObj.urlPath}"] }, 
-                            "else": "$og_url" 
-                        }
-                    }
+                $set: {
+                    "og_url": "/${jsonObj.urlPath}"
                 }
             }
         ]
@@ -2520,4 +2522,4 @@ const createMongoCommand = (jsonArr) => {
   writeStream.end();
 };
 
-createMongoCommand(jsonArr);
+createMongoCommand(jsonArr2);

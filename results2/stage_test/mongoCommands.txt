@@ -1,0 +1,10 @@
+db.getCollection('metainfos').updateOne(
+        { "_id": ObjectId("657035f5451ccc83dfccf103") }, 
+        [
+            {
+                $set: {
+                    "og_url": "/hostels-in-amandeep-bangalore"
+                }
+            }
+        ]
+    )
